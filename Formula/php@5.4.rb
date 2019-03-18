@@ -477,10 +477,10 @@ index 168c465f8d..6c087d152f 100644
      then
        PHP_CHECK_LIBRARY($iconv_lib_name, libiconv, [
          found_iconv=yes
-#diff --git a/Zend/zend_compile.h b/Zend/zend_compile.h
-#index a0955e34fe..09b4984f90 100644
-#--- a/Zend/zend_compile.h
-#+++ b/Zend/zend_compile.h
+diff --git a/Zend/zend_compile.h b/Zend/zend_compile.h
+index a0955e34fe..09b4984f90 100644
+--- a/Zend/zend_compile.h
++++ b/Zend/zend_compile.h
 @@ -414,9 +414,6 @@ struct _zend_execute_data {
 
  #define EX(element) execute_data.element
