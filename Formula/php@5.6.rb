@@ -97,6 +97,8 @@ class PhpAT56 < Formula
     # Each extension that is built on Mojave needs a direct reference to the
     # sdk path or it won't find the headers
     headers_path = "=#{MacOS.sdk_path_if_needed}/usr"
+    
+    #--with-iconv#{headers_path}
 
     args = %W[
       --prefix=#{prefix}
@@ -134,7 +136,6 @@ class PhpAT56 < Formula
       --with-gd
       --with-gettext=#{Formula["gettext"].opt_prefix}
       --with-gmp=#{Formula["gmp"].opt_prefix}
-      --with-iconv#/usr/local/Cellar/libiconv/1.15
       --with-icu-dir=#{Formula["icu4c"].opt_prefix}
       --with-jpeg-dir=#{Formula["jpeg"].opt_prefix}
       --with-kerberos#{headers_path}
