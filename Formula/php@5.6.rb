@@ -134,7 +134,7 @@ class PhpAT56 < Formula
       --with-gd
       --with-gettext=#{Formula["gettext"].opt_prefix}
       --with-gmp=#{Formula["gmp"].opt_prefix}
-      --with-iconv#/usr/local/Cellar/libiconv/1.15/lib
+      --with-iconv#/usr/local/Cellar/libiconv/1.15
       --with-icu-dir=#{Formula["icu4c"].opt_prefix}
       --with-jpeg-dir=#{Formula["jpeg"].opt_prefix}
       --with-kerberos#{headers_path}
