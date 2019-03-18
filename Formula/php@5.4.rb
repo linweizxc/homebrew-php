@@ -1,8 +1,8 @@
 class PhpAT56 < Formula
   desc "General-purpose scripting language"
   homepage "https://secure.php.net/"
-  url "http://php.net/get/php-5.6.40.tar.xz/from/this/mirror"
-  sha256 "1369a51eee3995d7fbd1c5342e5cc917760e276d561595b6052b21ace2656d1c"
+  url "https://php.net/get/php-5.4.45.tar.gz/from/this/mirror"
+  sha256 "25bc4723955f4e352935258002af14a14a9810b491a19400d76fcdfa9d04b28f"
 
   bottle do
     sha256 "0f616518cdc1b20b0356ca22e7dd77a69da5c4f6354932868bd8ed3196f04872" => :mojave
@@ -97,7 +97,7 @@ class PhpAT56 < Formula
     # Each extension that is built on Mojave needs a direct reference to the
     # sdk path or it won't find the headers
     headers_path = "=#{MacOS.sdk_path_if_needed}/usr"
-
+    
     #--with-iconv#{headers_path}
 
     args = %W[
