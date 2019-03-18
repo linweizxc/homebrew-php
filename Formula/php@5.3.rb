@@ -1,4 +1,4 @@
-class PhpAT56 < Formula
+class PhpAT53 < Formula
   desc "General-purpose scripting language"
   homepage "https://secure.php.net/"
   url "https://php.net/get/php-5.3.29.tar.xz/from/this/mirror"
