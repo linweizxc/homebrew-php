@@ -17,7 +17,6 @@ class PhpAT53 < Formula
   depends_on "apr"
   depends_on "apr-util"
   depends_on "aspell"
-  depends_on "autoconf213"
   depends_on "curl-openssl"
   depends_on "freetds"
   depends_on "freetype"
