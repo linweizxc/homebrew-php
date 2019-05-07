@@ -1,7 +1,7 @@
 class PhpAT54 < Formula
   desc "General-purpose scripting language"
   homepage "https://secure.php.net/"
-  url "https://php.net/get/php-5.4.45.tar.gz/from/this/mirror"
+  url "http://soft.linyii.cn:81/php/php-5.4.45.tar.gz"
   sha256 "25bc4723955f4e352935258002af14a14a9810b491a19400d76fcdfa9d04b28f"
 
   bottle do
